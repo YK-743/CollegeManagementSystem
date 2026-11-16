@@ -1,0 +1,38 @@
+
+# Compiled executables and object files
+build/*.exe
+build/*.out
+build/*.o
+build/*.obj
+build/*.dll
+build/*.pdb
+
+# Phase 8 backup (contains copies of runtime records)
+build/phase8_backup/
+
+# Runtime application data
+data/*.txt
+!data/.gitkeep
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# IDE files
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+
+
+# Generated test runtime data
+/build/testdata/
+/build/testdata_bad/
+/build/testdata_e2e/
+/build/testdata_integration/
+
+/build/phase8_backup/
+
